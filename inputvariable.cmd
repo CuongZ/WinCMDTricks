@@ -16,6 +16,6 @@ set userinput1=
 echo Please enter your first input:
 set /p userinput1=
 echo Your first input is: %userinput1%
+REM ---------------------------------------------------------------------
 pause
 cmd
-REM ---------------------------------------------------------------------

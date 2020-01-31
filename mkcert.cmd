@@ -26,6 +26,6 @@ echo[
 	makecert -r -n "CN=%Certname%" -eku 1.3.6.1.5.5.7.3.3 -sv %KEYDIR%\%Certname%_cert.pvk %KEYDIR%\%Certname%_cert.cer
 	cert2spc %KEYDIR%\%Certname%_cert.cer %KEYDIR%\%Certname%_cert.spc
 	pvk2pfx.exe -pvk %KEYDIR%\%Certname%_cert.pvk -pi %CERTIFICATE_PASSWORD% -spc %KEYDIR%\%Certname%_cert.spc -pfx %KEYDIR%\%Certname%_cert.pfx -po %CERTIFICATE_PASSWORD%
-	pause
-	cmd
 REM ---------------------------------------------------------------------
+pause
+cmd
