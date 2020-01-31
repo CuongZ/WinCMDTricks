@@ -1,6 +1,9 @@
 @echo off
+REM ---------------------------------------------------------------------
 REM Easy make cert by dtcu0ng ( CuongZ )
 REM Need Microsoft's Makecert, Cert2SPC, PVK2PFX
+REM ---------------------------------------------------------------------
+REM ---------------------------------------------------------------------
 if exist keys (
 set KEYDIR=keys
 ) else (
@@ -24,3 +27,5 @@ echo[
 	cert2spc %KEYDIR%\%Certname%_cert.cer %KEYDIR%\%Certname%_cert.spc
 	pvk2pfx.exe -pvk %KEYDIR%\%Certname%_cert.pvk -pi %CERTIFICATE_PASSWORD% -spc %KEYDIR%\%Certname%_cert.spc -pfx %KEYDIR%\%Certname%_cert.pfx -po %CERTIFICATE_PASSWORD%
 	pause
+	cmd
+REM ---------------------------------------------------------------------

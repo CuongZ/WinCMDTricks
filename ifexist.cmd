@@ -15,4 +15,6 @@ if exist keys/ (
     mkdir keys
     echo folder created
 )
+pause
+cmd
 REM ---------------------------------------------------------------------
