@@ -9,7 +9,7 @@ REM WHEN USING OTHER, USE % IN VARIABLE, DO NOT JUST ONLY YOUR VARIABLE NAME.
 REM DEMO OF INCORRECT CODE WRITE FOR THIS CASE: ( set %userinput1%= ) ( ITS INCORRECT )
 REM _______   CORRECT _________________________: ( set userinput1= )  ( ITS CORRECT )
 REM I USUALLY FORGET SOME SIMPLE COMMAND, SO CREATED THIS GIST TO REMEMBER IT
-REM SOURCE: https://gist.github.io/CuongZ
+REM SOURCE: https://gist.github.com/CuongZ
 REM --------------------------------------------------------------------
 REM --------------------------------------------------------------------
 set userinput1=
